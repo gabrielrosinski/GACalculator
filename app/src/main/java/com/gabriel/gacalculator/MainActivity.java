@@ -1,5 +1,6 @@
 package com.gabriel.gacalculator;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
@@ -39,7 +40,21 @@ public class MainActivity extends AppCompatActivity implements MainListAdapter.I
 
 
     public void onItemClick(View view, int position) {
-        Toast.makeText(this, "You clicked " + adapter.getItem(position) + " on row number " + position, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, "You clicked " + adapter.getItem(position) + " on row number " + position, Toast.LENGTH_SHORT).show();
+
+
+        Intent i = null;
+
+        switch (position) {
+            case 0:
+                i = new Intent(this, Lesson2Activity.class);
+                break;
+            case 1:
+                i = new Intent(this, BirthdayListActivity.class);
+                break;
+        }
+
+        startActivity(i);
     }
 
 
