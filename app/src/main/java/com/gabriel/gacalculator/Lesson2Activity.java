@@ -17,13 +17,12 @@ public class Lesson2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.lesson2_layout);
-
     }
 
 
     public void btnClicked(View view){
 
-        TextView textView = (TextView) findViewById(R.id.textView);
+        TextView textView = (TextView) findViewById(R.id.calcTextView);
 
 
         switch (view.getId()) {
@@ -109,17 +108,9 @@ public class Lesson2Activity extends AppCompatActivity {
     }
 
 
-//    public void textViewClicked(View view){
-////        Toast.makeText(getApplicationContext(), "Some massage", Toast.LENGTH_LONG).show();
-//
-//        TextView textView = (TextView) findViewById(R.id.textView);
-//        textView.setImeOptions(EditorInfo.IME_ACTION_DONE);
-//        textView.setText("");
-//    }
-
     private void addDigitToTextField(String digit)
     {
-        TextView textView = (TextView) findViewById(R.id.textView);
+        TextView textView = (TextView) findViewById(R.id.calcTextView);
         String text = textView.getText().toString();
 
         if (operation == ""){
