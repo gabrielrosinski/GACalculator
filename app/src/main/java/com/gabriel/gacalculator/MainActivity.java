@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements MainListAdapter.I
         ArrayList<String> animalNames = new ArrayList<>();
         animalNames.add("Assignment 1: Calculator");
         animalNames.add("Assignment 2: Birthday list");
+        animalNames.add("Assignment 3: Low level graphics");
 
         // set up the RecyclerView
         RecyclerView recyclerView = findViewById(R.id.mainRecycleView);
@@ -51,6 +52,9 @@ public class MainActivity extends AppCompatActivity implements MainListAdapter.I
                 break;
             case 1:
                 i = new Intent(this, BirthdayListActivity.class);
+                break;
+            case 2:
+                i = new Intent(this, Lesson3Acitvity.class);
                 break;
         }
 

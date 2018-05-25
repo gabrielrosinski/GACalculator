@@ -17,9 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Lesson2Activity" />
-        <activity android:name=".BirthdayAssignmnet.BirthdayListActivity"/>
-        <activity android:name=".BirthdayAssignmnet.CreateUserActivity"/>
-
+        <activity android:name=".BirthdayAssignmnet.BirthdayListActivity" />
+        <activity android:name=".BirthdayAssignmnet.CreateUserActivity" />
+        <activity android:name=".Lesson3Acitvity" />
     </application>
 
 </manifest>

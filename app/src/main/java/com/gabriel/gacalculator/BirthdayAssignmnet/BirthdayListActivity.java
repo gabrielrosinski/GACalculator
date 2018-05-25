@@ -51,21 +51,6 @@ public class BirthdayListActivity extends AppCompatActivity{
         ArrayList<String> bdayDates = birthdayListFromBirthdayUsers(birthdayUsers);
 
 
-//                ArrayList<String> bdayDates = new ArrayList<String>();
-//
-//                bdayDates.add("e4124214");
-//                bdayDates.add("4234234124");
-//                bdayDates.add("f2f2f");
-//                bdayDates.add("f321f21");
-//                bdayDates.add("1243rff");
-//                bdayDates.add("e412g423bv24v24214");
-
-
-
-        //should be sorted and in arrayList<String> format
-
-
-
         // set up the RecyclerView
         recyclerView = findViewById(R.id.birthdayRecyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

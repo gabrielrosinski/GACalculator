@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">HWProjects</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_lesson3_acitvity">Lesson3Acitvity</string>
 </resources>
